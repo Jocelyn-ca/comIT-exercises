@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+</head>
+<body>
+    <form action="create_user.html" method="GET" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>User Form</legend>
+            <lable for="1">*Username</lable>
+        <input type="text" name="username" placeholder="username" size="30" maxlength="12" required>
+        <br/>
+            <lable>*Password</lable>
+        <input type="password" name="password" size="30" maxlength="8" placeholder="password" required><br>
+        <lable for="email">*Email address</lable>
+        <input type="email" id="email" name="email" value="email" required><br>
+        </fieldset>
+
+  
+  
+        <p>Select your favourite superhero</p>
+        <input type="radio" id="Superman" name="Superheros" value="Superman">
+        <lable for="Superman">Superman</lable>
+        <input type="radio" id="Batman" name="Superheros" Value="Batman">
+        <lable for="Batman">Batman</lable>
+        <input type="radio" id="Wonder Woman" name="Superheros" value="Wonder Woman" checked="checked">
+        <lable for="Wonder Woman">Wonder Woman</lable>
+        <input type="radio" id="Flash" name="Superheros" value="Flash">
+        <lable for="Flash">Flash</lable>
+        <input type="radio" id="Thor" name="Superheros" value="Thor">
+        <lable for="Thor">Thor</lable>
+        <input type="radio" id="Hulk" name="Superheros" value="Hulk">
+        <lable for="Hulk">Hulk</lable>
+  
+        <p>Select your favourite video game</p>
+        <input type="checkbox" id="Fifa" name="videogames" value="Fifa">
+        <lable for="Fifa">Fifa</lable>
+        <input type="checkbox" id="NHl" name="videogames" value="NHL">
+        <lable for="NHL">NHL</lable>
+        <input type="checkbox" id="Residen Evil" name="videogames" value="Residen Evil">
+        <lable for="Residen Evil">Residen Evil</lable>
+        <input type="checkbox" id="Uncharted" name="videogames" value="uncharted" checked="checked">
+        <lable for="Uncharted">Uncharted</lable>
+   
+        <input type="hidden" id="userid" name="userid" value="2300"> <br/>
+        <input type="date" id="birthday" name="birthday" value="birthday">
+        <br>
+        <lable for="site">Enter your site URL</lable>
+        <input for="URL" id="url" name="url" value="url"><br>
+        <hr/>
+   
+        <input type="image" src="img/register_button.jpg" alt="submit" width="120" height="50"><br>
+        <lable for="birthday">Select your date of birthday</lable>
+       
+    </form>
+</body>
+</html>
